@@ -30,9 +30,11 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+             "node_modules/bootstrap-icons/font/bootstrap-icons.css",
+             "node_modules/bootstrap/dist/css/bootstrap_lumen.min.css",
+             "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": ["node_modules/bootstrap/dist/js/bootstrap.min.js"]
           },
           "configurations": {
             "production": {
@@ -93,12 +95,17 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/bootstrap/scss/bootstrap.scss",
+              "node_modules/bootstrap-icons/font/bootstrap-icons.css",
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": ["node_modules/bootstrap/dist/js/bootstrap.min.js"]
           }
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "9a5b7a12-a5a1-4dde-b10b-3043943e8815"
   }
 }
